@@ -320,17 +320,6 @@ screen3 = true
 
 transposer = true
 
-meTransposer {
-  input: [["oc:lanCard", "oc:cable", "oc:cable"]
-          ["oc:transposer", {item="appliedenergistics2:item.ItemMultiPart", subID=36}, {item="appliedenergistics2:item.ItemMultiPart", subID=36}]
-          ["oc:me_upgrade1", {item="appliedenergistics2:item.ItemMultiPart", subID=36}, {item="appliedenergistics2:item.ItemMultiPart", subID=36}]]
-}
-meActuator {
-  input: [["oc:lanCard", "oc:cable", "oc:cable"]
-          ["oc:transposer", "oc:me_upgrade1", {item="appliedenergistics2:item.ItemMultiPart", subID=536}]
-          ["oc:adapter", "", ""]]
-}
-
 me_upgrade1 = true
 
 waypoint = true
